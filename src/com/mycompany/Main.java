@@ -34,7 +34,7 @@ public class Main {
                 else {
                         throw new Exception("That amount exceeds your balance.");
                 }
-            }
+        }
         else {
             System.out.println("Thank you. Please come again.");
         }
