@@ -28,12 +28,11 @@ public class Main {
             System.out.println("How much would you like to withdraw?");
             String amount = scanner.nextLine();
             int amountInt = Integer.valueOf(amount);
-                if (amountInt <= 100) {
-                    System.out.println("Please take your cash.");
-                }
-                else {
-                        throw new Exception("That amount exceeds your balance.");
-                }
+            if (amountInt <= 100) {
+                System.out.println("Please take your cash.");
+            } else {
+                throw new Exception("That amount exceeds your balance.");
+            }
         }
         else {
             System.out.println("Thank you. Please come again.");
