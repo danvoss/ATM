@@ -1,10 +1,16 @@
 package com.mycompany;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
+
+        HashMap<String, Double> customerBalances = new HashMap<>();
+        customerBalances.put("Alice", 100.00);
+        customerBalances.put("Bob", 50.25);
+        customerBalances.put("Charlie", 220.20);
 
         System.out.println("Hello. What is your name?");
         Scanner scanner = new Scanner(System.in);
@@ -16,6 +22,8 @@ public class Main {
         else {
             System.out.println("Hi, " + name + ".");
         }
+
+        //If new customer, offer to create account now.
 
         System.out.println("What would you like to do? Enter a number:");
         System.out.println("1. Check balance 2. Withdraw funds 3. Cancel");
