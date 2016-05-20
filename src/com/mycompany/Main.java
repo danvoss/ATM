@@ -7,6 +7,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        //test new ATM_refactor branch
+
         HashMap<String, Double> customerBalances = new HashMap<>();
         customerBalances.put("Alice", 100.00);
         customerBalances.put("Bob", 50.25);
