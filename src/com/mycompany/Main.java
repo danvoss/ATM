@@ -57,6 +57,7 @@ public class Main {
                             break;
                         case ("3"):
                             customerBalances.remove(name);
+                            System.out.println("Your account has been removed.");
                             break;
                         default:
                             System.out.println("Please enter 1, 2, 3, or 4.");
