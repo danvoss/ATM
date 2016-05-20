@@ -12,8 +12,6 @@ public class Main {
         customerBalances.put("Bob", 50.25);
         customerBalances.put("Charlie", 220.20);
 
-        //start loop here somehow?
-
         while (true) {
             System.out.println("Hello. What is your name?");
             Scanner scanner = new Scanner(System.in);
